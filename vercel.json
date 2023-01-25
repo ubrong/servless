@@ -2,11 +2,6 @@
   "version" : 2
   "functions": {
   
-    "api/js/*.js": {
-      "memory": 128,
-      "maxDuration": 10
-    },
-
     "api/php/*.php": {
       "runtime":"vercel-php@0.5.2",
       "maxDuration": 5
@@ -24,6 +19,10 @@
     {
       "src": "/about",
       "dest": "/api/about.js"
+    },
+    {
+      "src": "/php",
+      "dest": "/api/php.js"
     }
   ]
 
