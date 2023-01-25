@@ -1,5 +1,6 @@
 {
   "version" : 2,
+  
   "functions": {
   
     "api/js/*.js": {
@@ -7,10 +8,10 @@
       "maxDuration": 10
     },
 
-     "api/index.php": {
+     "api/php/*.php": {
       "runtime":"vercel-php@0.5.2",
       "maxDuration": 5
-    }
+    },
     
   },
 
@@ -23,6 +24,7 @@
       "src": "/about",
       "dest": "/api/about.js"
     }
+    
   ]
 
 }
