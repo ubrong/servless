@@ -14,7 +14,7 @@
   "routes": [
     {
       "src": "/",
-      "dest": "/api"
+      "dest": "/api/index.js"
     },
     {
       "src": "/about",
@@ -22,7 +22,7 @@
     },
     {
       "src": "/php",
-      "dest": "/api/php.js"
+      "dest": "/api/index.php"
     }
   ]
 
