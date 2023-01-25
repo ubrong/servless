@@ -10,6 +10,10 @@
     {
       "src": "/",
       "dest": "/api"
+    },
+    {
+      "src": "/about",
+      "dest": "/api/about.js"
     }
   ]
 
