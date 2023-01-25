@@ -5,6 +5,11 @@
     "api/js/*.js": {
       "memory": 128,
       "maxDuration": 10
+    },
+
+     "api/index.php": {
+      "runtime":"vercel-php@0.5.2",
+      "maxDuration": 5
     }
     
   },
