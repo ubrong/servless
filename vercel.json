@@ -2,27 +2,21 @@
   "version" : 2
   "functions": {
   
-    "api/php/*.php": {
-      "runtime":"vercel-php@0.5.2",
-      "maxDuration": 5
+    "api/js/*.js": {
+      "memory": 128,
+      "maxDuration": 10
     }
-
-    
     
   },
 
   "routes": [
     {
       "src": "/",
-      "dest": "/api/index2.js"
+      "dest": "/api"
     },
     {
       "src": "/about",
       "dest": "/api/about.js"
-    },
-    {
-      "src": "/php",
-      "dest": "/api/index.php"
     }
   ]
 
