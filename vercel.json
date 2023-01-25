@@ -1,15 +1,15 @@
 {
   "functions": {
-    "api/*.js": {
+    "api/js/*.js": {
       "memory": 128,
       "maxDuration": 10
     }
   },
 
-  "redirects": [
+  "routes": [
     {
-      "source": "/",
-      "destination": "http://hiwork.tech/"
+      "src": "/",
+      "dest": "/api"
     }
   ]
 
